@@ -1,4 +1,5 @@
 import { Shield, Zap, Grid3x3, ArrowRight } from 'lucide-react';
+import logo from '../assets/raj-logo.png';
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="p-2 cyber-border rounded-lg pulse-glow">
-              <Shield className="h-8 w-8 text-cyan-400" />
+              <img src={logo} alt="Raj Agencies logo" className="h-8 w-8 object-contain" />
             </div>
             <div>
               <h1 className="text-2xl font-bold hologram-text">RAJ AGENCIES</h1>
